@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="198" failures="0" name="testRunners.TestRunner" time="0.813" errors="0" skipped="171">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/himanshuvashisth/Documents/toshiba-scti-test-suite"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="NZ"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/himanshuvashisth/Documents/toshiba-scti-test-suite"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/6x/3j_wnr6j2xg3dcn81f5v4mp80000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/himanshuvashisth/Downloads/apache-maven-3.5.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/himanshuvashisth/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/himanshuvashisth/Downloads/apache-maven-3.5.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="library.jansi.path" value="/Users/himanshuvashisth/Downloads/apache-maven-3.5.3/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/himanshuvashisth"/>
+    <property name="user.timezone" value="Pacific/Auckland"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="himanshuvashisth"/>
+    <property name="java.class.path" value="/Users/himanshuvashisth/Downloads/apache-maven-3.5.3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="/Users/himanshuvashisth/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/himanshuvashisth/Downloads/apache-maven-3.5.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="| Name |  | title case |" name="Given search result returned 1 member information" time="0.114">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Name |  | title case |" name="When user click on Find member button" time="0.114">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Name |  | title case |" name="Then user should see following search result page fields" time="0.114">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Name |  | title case |" name="| Name |  | title case |" time="0.114">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Name |  | title case |" name="| Name |  | title case |" time="0.114"/>
+  <testcase classname="| Date of birth |  | text |" name="Given search result returned 1 member information" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Date of birth |  | text |" name="When user click on Find member button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Date of birth |  | text |" name="Then user should see following search result page fields" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Date of birth |  | text |" name="| Date of birth |  | text |" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Date of birth |  | text |" name="| Date of birth |  | text |" time="0.001"/>
+  <testcase classname="| Member card number |  | text |" name="Given search result returned 1 member information" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Member card number |  | text |" name="When user click on Find member button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Member card number |  | text |" name="Then user should see following search result page fields" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Member card number |  | text |" name="| Member card number |  | text |" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Member card number |  | text |" name="| Member card number |  | text |" time="0.002"/>
+  <testcase classname="| Policy number |  | text |" name="Given search result returned 1 member information" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Policy number |  | text |" name="When user click on Find member button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Policy number |  | text |" name="Then user should see following search result page fields" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Policy number |  | text |" name="| Policy number |  | text |" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Policy number |  | text |" name="| Policy number |  | text |" time="0.001"/>
+  <testcase classname="| Address |  | dropdown |" name="Given search result returned 1 member information" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Address |  | dropdown |" name="When user click on Find member button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Address |  | dropdown |" name="Then user should see following search result page fields" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Address |  | dropdown |" name="| Address |  | dropdown |" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Address |  | dropdown |" name="| Address |  | dropdown |" time="0.002"/>
+  <testcase classname="Given search result returned 1 member information(| Member(s) on this policy |  | list |)" name="Given search result returned 1 member information(| Member" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="When user click on Find member button(| Member(s) on this policy |  | list |)" name="When user click on Find member button(| Member" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Then user should see following search result page fields(| Member(s) on this policy |  | list |)" name="Then user should see following search result page fields(| Member" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Member(s) on this policy |  | list |" name="| Member" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Member(s) on this policy |  | list |" name="| Member" time="0.001"/>
+  <testcase classname="Scenario: Search return server exception" name="Given user is on search page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Search return server exception" name="And selected a search option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Search return server exception" name="When user enter value in input field" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Search return server exception" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Search return server exception" name="Then server returns &apos;5xx&apos; server Exception" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Search return server exception" name="And user should stay on exception page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Search return server exception" name="Scenario: Search return server exception" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Search return server exception" name="Scenario: Search return server exception" time="0.002"/>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="Given user is on search page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="And selected &apos;Member card number&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="When user enter valid member card Number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="Then user should see 1 matching search result information" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="Scenario: search for an existing member with valid Member card number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="Scenario: search for an existing member with valid Member card number" time="0.001"/>
+  <testcase classname="Scenario: show list of members on policy" name="Given user is on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="And selected &apos;Member card number&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="When user enter valid Member card number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="Then user should see list of all members on policy" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="Scenario: show list of members on policy" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="Scenario: show list of members on policy" time="0.002"/>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="Given user is on search page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="And selected &apos;Member card number&apos; option from &apos;Find a member&apos; dropdown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="When user enter invalid Member card Number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="And user should stay on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="Scenario: search for an existing member with valid Member card number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Member card number" name="Scenario: search for an existing member with valid Member card number" time="0.001"/>
+  <testcase classname="Scenario: search for an existing member with empty Member card number field" name="Given user is on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Member card number field" name="And selected &apos;Member card number&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Member card number field" name="When user enter no value in Member card Number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Member card number field" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Member card number field" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Member card number field" name="And user should stay on search page" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Member card number field" name="Scenario: search for an existing member with empty Member card number field" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Member card number field" name="Scenario: search for an existing member with empty Member card number field" time="0.002"/>
+  <testcase classname="Scenario: Alternate search option" name="Given user is on search page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And selected &apos;Member card number&apos; option from &apos;Find a member&apos; dropdown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="When user enter non-existing Member card Number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And user should stay on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And user click on &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Then user should be able to chose alternate search option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Scenario: Alternate search option" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Scenario: Alternate search option" time="0.002"/>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="Given user is on search page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="And selected &apos;Mobile phone number&apos; option from &apos;Find a member&apos; dropdown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="When user enter valid mobile phone Number" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="Then user should see 1 matching search result information" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="Scenario: search for an existing member with valid mobile phone number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="Scenario: search for an existing member with valid mobile phone number" time="0.001"/>
+  <testcase classname="Scenario: show list of members on policy" name="Given user is on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="And selected &apos;Mobile phone number&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="When user enter valid mobile phone Number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="Then user should see list of all members on policy" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="Scenario: show list of members on policy" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="Scenario: show list of members on policy" time="0.001"/>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="Given user is on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="And selected &apos;Mobile phone number&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="When user enter invalid mobile phone Number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="And user should stay on search page" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="Scenario: search for an existing member with valid mobile phone number" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid mobile phone number" name="Scenario: search for an existing member with valid mobile phone number" time="0.002"/>
+  <testcase classname="Scenario: search for an existing member with empty mobile phone number field" name="Given user is on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty mobile phone number field" name="And selected &apos;Mobile phone number&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty mobile phone number field" name="When user enter no value in mobile phone Number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty mobile phone number field" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty mobile phone number field" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty mobile phone number field" name="And user should stay on search page" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty mobile phone number field" name="Scenario: search for an existing member with empty mobile phone number field" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty mobile phone number field" name="Scenario: search for an existing member with empty mobile phone number field" time="0.002"/>
+  <testcase classname="Scenario: Alternate search option" name="Given user is on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And selected &apos;Mobile phone number&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="When user enter non-existing mobile phone Number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And user should stay on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And user click on &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Then user should be able to chose alternate search option from &apos;Find a member&apos; dropdown" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Scenario: Alternate search option" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Scenario: Alternate search option" time="0.002"/>
+  <testcase classname="Scenario: search for an existing member with Name and Date of birth" name="Given user is on search page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with Name and Date of birth" name="And selected &apos;Name and Date of birth&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with Name and Date of birth" name="When user enter valid Name and Date of birth" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with Name and Date of birth" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with Name and Date of birth" name="Then user should see 1 matching search result information" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with Name and Date of birth" name="Scenario: search for an existing member with Name and Date of birth" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with Name and Date of birth" name="Scenario: search for an existing member with Name and Date of birth" time="0.001"/>
+  <testcase classname="Scenario: show list of members on policy search result" name="Given user is on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy search result" name="And selected &apos;Name and Date of birth&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy search result" name="When user enter valid Name and Date of birth" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy search result" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy search result" name="Then user should see list of all members on policy search result" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy search result" name="Scenario: show list of members on policy search result" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy search result" name="Scenario: show list of members on policy search result" time="0.001"/>
+  <testcase classname="Scenario: search for an existing member with invalid Name and Date of birth" name="Given user is on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with invalid Name and Date of birth" name="And selected &apos;Name and Date of birth&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with invalid Name and Date of birth" name="When user enter invalid Name and Date of birth" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with invalid Name and Date of birth" name="And click on &apos;Find member&apos; button" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with invalid Name and Date of birth" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with invalid Name and Date of birth" name="And user should stay on search page" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with invalid Name and Date of birth" name="Scenario: search for an existing member with invalid Name and Date of birth" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with invalid Name and Date of birth" name="Scenario: search for an existing member with invalid Name and Date of birth" time="0.003"/>
+  <testcase classname="Scenario: search for an existing member with empty Name and Date of birth field" name="Given user is on search page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Name and Date of birth field" name="And selected &apos;Name and Date of birth&apos; option from &apos;Find a member&apos; dropdown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Name and Date of birth field" name="When user enter no value in Name and Date of birth" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Name and Date of birth field" name="And click on &apos;Find member&apos; button" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Name and Date of birth field" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Name and Date of birth field" name="And user should stay on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Name and Date of birth field" name="Scenario: search for an existing member with empty Name and Date of birth field" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Name and Date of birth field" name="Scenario: search for an existing member with empty Name and Date of birth field" time="0.001"/>
+  <testcase classname="Scenario: Alternate search option" name="Given user is on search page" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And selected &apos;Name and Date of birth&apos; option from &apos;Find a member&apos; dropdown" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="When user enter non-existing Name and Date of birth" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And click on &apos;Find member&apos; button" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And user should stay on search page" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And user click on &apos;Find a member&apos; dropdown" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Then user should be able to chose alternate search option from &apos;Find a member&apos; dropdown" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Scenario: Alternate search option" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Scenario: Alternate search option" time="0.002"/>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="Given user is on search page" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="And selected &apos;Policy number&apos; option from &apos;Find a member&apos; dropdown" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="When user enter valid Policy Number" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="And click on &apos;Find member&apos; button" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="Then user should see 1 matching search result information" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="Scenario: search for an existing member with valid Policy number" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="Scenario: search for an existing member with valid Policy number" time="0.003"/>
+  <testcase classname="Scenario: show list of members on policy" name="Given user is on search page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="And selected &apos;Policy number&apos; option from &apos;Find a member&apos; dropdown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="When user enter valid Policy number" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="And click on &apos;Find member&apos; button" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="Then user should see list of all members on policy" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="Scenario: show list of members on policy" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: show list of members on policy" name="Scenario: show list of members on policy" time="0.003"/>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="Given user is on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="And selected &apos;Policy number&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="When user enter invalid Policy Number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="And click on &apos;Find member&apos; button" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="And user should stay on search page" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="Scenario: search for an existing member with valid Policy number" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with valid Policy number" name="Scenario: search for an existing member with valid Policy number" time="0.003"/>
+  <testcase classname="Scenario: search for an existing member with empty Policy number field" name="Given user is on search page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Policy number field" name="And selected &apos;Policy number&apos; option from &apos;Find a member&apos; dropdown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Policy number field" name="When user enter no value in Policy Number" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Policy number field" name="And click on &apos;Find member&apos; button" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Policy number field" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Policy number field" name="And user should stay on search page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Policy number field" name="Scenario: search for an existing member with empty Policy number field" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: search for an existing member with empty Policy number field" name="Scenario: search for an existing member with empty Policy number field" time="0"/>
+  <testcase classname="Scenario: Alternate search option" name="Given user is on search page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And selected &apos;Policy number&apos; option from &apos;Find a member&apos; dropdown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="When user enter non-existing Policy Number" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And click on &apos;Find member&apos; button" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Then user should see message &quot;The Search criteria does not match any of our member records&quot;" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And user should stay on search page" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="And user click on &apos;Find a member&apos; dropdown" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Then user should be able to chose alternate search option from &apos;Find a member&apos; dropdown" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Scenario: Alternate search option" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Alternate search option" name="Scenario: Alternate search option" time="0.002"/>
+</testsuite>
